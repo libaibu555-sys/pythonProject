@@ -37,7 +37,7 @@ def demo_tf():
     c = tf.reshape(tf.range(6), (2, 3))
     print("TF a:", a.numpy(), "dtype:", a.dtype)
     print("TF b shape:", b.shape)
-    print("TF c:\n", c.numpy())
+    print("TF c:\n", c.numpy()) # 转为 NumPy 输出
 
 if __name__ == "__main__":
     demo_numpy()
